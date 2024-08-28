@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(to right, #ececcfda, #e0e0b4da); /* Fundo com gradiente */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly; /* Espaçamento uniforme */
+    align-items: center;
+    background-color: #6d6d6999;
+    height: 110px;
+}
+
+.elemento {
+    width: 150px;
+    height: 40px;
+    background-color: #999960;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 28px;
+    min-width: 500px;
+    max-width: 1200px;
+    margin: auto; /* Centralização */
+}
+
+img {
+    width: 100%;
+}
+
+.paragrafo {
+    background-color: #999960;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.qualificacao, .contato {
+    text-align: center;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato label, .contato input {
+    margin-bottom: 10px;
+}
